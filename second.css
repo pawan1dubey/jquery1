@@ -1,0 +1,71 @@
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+align-items: flex-start;
+justify-content: flex-start;
+
+
+
+}
+
+.item{
+
+width: 25%
+
+}
+
+
+#admission{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+}
+
+#courses{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+.button{
+
+    
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+
+.adm{
+
+background-color: orange;
+
+
+}
+
+.crs{
+
+background-color: orange;
+
+}
+
+
+@media screen and (max-width: 480px){
+
+.container{
+flex-direction: column;
+}
+
+.item{
+
+width: 100%
+
+}
+
+}
